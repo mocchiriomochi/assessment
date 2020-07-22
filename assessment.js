@@ -110,3 +110,4 @@ function assessment(userName) {
 
 console.assert(assessment('太郎') === answers[8].replace(/\{userName\}/g, '太郎'), '名前置換え処理エラー');
 console.assert(assessment('太郎') === assessment('太郎'), '同一名なのに結果が異なるエラー');
+
